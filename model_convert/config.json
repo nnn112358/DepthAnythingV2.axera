@@ -1,0 +1,237 @@
+{
+  "model_type": "ONNX",
+  "npu_mode": "NPU3",
+  "quant": {
+    "input_configs": [
+      {
+        "tensor_name": "DEFAULT",
+        "calibration_dataset": "calib-cocotest2017.tar",
+        "calibration_size": 128,
+        "calibration_mean": [123.675, 116.28, 103.53],
+        "calibration_std": [58.395, 57.12, 57.375]
+      }
+    ],
+    "calibration_method": "MinMax",
+    "precision_analysis": true,
+    "precision_analysis_method": "EndToEnd",
+    "layer_configs":  [
+      {
+        "layer_name": "op_173:onnx.Mul_1",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_173:onnx.Mul_2",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_173:onnx.Mul_3",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_173:onnx.Mul_4",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_173:onnx.Softmax_0",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_173:onnx.FullyConnected_v_0",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_173:onnx.Softmax_1",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_173:onnx.Softmax_3",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_173:onnx.MatMul_qkv_0",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_173:onnx.MatMul_qkv_1",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_173:onnx.MatMul_qkv_2",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_173:onnx.MatMul_qkv_3",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_173:onnx.MatMul_qkv_4",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_174:onnx.Softmax_2",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_174:onnx.Softmax_5",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_174:onnx.MatMul_qkv_0",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_174:onnx.MatMul_qkv_2",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_174:onnx.MatMul_qkv_3",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_174:onnx.MatMul_qkv_4",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_174:onnx.MatMul_qkv_5",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_177:onnx.MatMul_qkv_0",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_177:onnx.MatMul_qkv_1",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_177:onnx.MatMul_qkv_2",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_177:onnx.MatMul_qkv_4",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_178:onnx.Softmax_0",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_178:onnx.MatMul_qkv_0",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_178:onnx.MatMul_qkv_3",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_179:onnx.Softmax_4",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_179:onnx.MatMul_qkv_4",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_181:onnx.MatMul_qkv_4",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_184:onnx.Softmax_2",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_184:onnx.MatMul_qkv_4",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_175:onnx.MatMul_qkv_0",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_175:onnx.MatMul_qkv_1",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_175:onnx.MatMul_qkv_3",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_175:onnx.MatMul_qkv_4",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_175:onnx.MatMul_qkv_5",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_176:onnx.Softmax_3",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_176:onnx.Softmax_4",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_176:onnx.Softmax_5",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_176:onnx.MatMul_qkv_3",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_176:onnx.MatMul_qkv_4",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_184:onnx.Softmax_2",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "/blocks.0/Add",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "/blocks.0/ls2/Mul",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "/blocks.0/Add_1",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_111:onnx.LayerNormalization",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_174:onnx.FullyConnected_v_0",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_174:onnx.FullyConnected_v_1",
+        "data_type": "U16"
+      },
+      {
+        "layer_name": "op_174:onnx.FullyConnected_v_2",
+        "data_type": "U16"
+      },
+      {
+        "start_tensor_names":["/depth_head/refinenet1/resConfUnit2/conv1/Conv_output_0"],
+        "end_tensor_names": ["output"],
+        "data_type": "U16"
+      }
+    ]
+  },
+  "input_processors": [
+    {
+      "tensor_name": "DEFAULT",
+      "tensor_format": "RGB",
+      "src_format": "BGR",
+      "src_dtype": "U8",
+      "src_layout": "NHWC"
+    }
+  ],
+  "compiler": {
+    "npu_perf": true
+  }
+}
