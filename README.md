@@ -7,7 +7,7 @@ DepthAnything v2 DEMO on Axera
 ## 支持平台
 
 - [x] AX650N
-- [ ] AX630C
+- [x] AX630C
 
 ## 模型转换
 
@@ -18,7 +18,7 @@ DepthAnything v2 DEMO on Axera
 - AX650N 的设备已预装 Ubuntu22.04
 - 以 root 权限登陆 AX650N 的板卡设备
 - 链接互联网，确保 AX650N 的设备能正常执行 `apt install`, `pip install` 等指令
-- 已验证设备：AX650N DEMO Board、爱芯派Pro
+- 已验证设备：AX650N DEMO Board、爱芯派Pro(AX650N)、爱芯派2(AX630C)
 
 ### Python API 运行
 
@@ -80,7 +80,9 @@ python3 infer.py --img examples/demo01.jpg --model ../models/compiled.axmodel
 
 #### AX630C
 
-(TODO)
+| model | latency(ms) |
+|---|---|
+|depth_anyting_v2_vits|300.1|
 
 ## 技术讨论
 
