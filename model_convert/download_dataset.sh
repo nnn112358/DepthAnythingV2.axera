@@ -1,2 +1,1 @@
-wget https://github.com/ml-inory/whisper.axera/releases/download/v1.0/datasets.zip
-unzip datasets.zip -d ./
+wget https://github.com/AXERA-TECH/DepthAnythingV2.axera/releases/tag/v1.0.0/calib-cocotest2017.tar

@@ -15,8 +15,6 @@ pip install -r requirements.txt
 
 ## 导出模型（PyTorch -> ONNX）
 
-目前只支持导出 **tiny** 或 **small** 的模型，请根据需要选择
-
 导出 small 模型
 ```
 python export_onnx.py --encoder vits --onnx-path  depth_anything_v2_vits.onnx
