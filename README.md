@@ -59,9 +59,6 @@ python3 infer_onnx.py --img examples/demo01.jpg --model ../models/depth_anything
 cd python  
 python3 infer.py --img examples/demo01.jpg --model ../models/compiled.axmodel 
 ```  
-
-输出结果
-
 输出结果
 ![output](asserts/output-ax.png)
 
