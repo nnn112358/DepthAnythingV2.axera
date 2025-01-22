@@ -17,9 +17,7 @@ def parse_args() -> argparse.Namespace:
         required=True,
         help="Path to ONNX model.",
     )
-    parser.add_argument(
-        "--viz", action="store_true", help="Whether to visualize the results."
-    )
+    
     return parser.parse_args()
 
 
@@ -48,7 +46,7 @@ def infer(img: str, model: str, viz: bool = False):
 
     combined_result = cv2.hconcat([img_raw,  depth_color])
             
-    cv2.imwrite("output.png", combined_result)
+    cv2.imwrite("output-onnx.png", combined_result)
     
     return depth
 
