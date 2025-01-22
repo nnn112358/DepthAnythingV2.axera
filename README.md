@@ -2,7 +2,7 @@
 DepthAnything v2 DEMO on Axera
 
 - 目前支持 C++ 和 Python 两种语言，C++代码在 [ax-samples](https://github.com/AXERA-TECH/ax-samples/blob/main/examples/ax650/ax_depth_anything_steps.cc)
-- 预编译模型下载[models](https://github.com/AXERA-TECH/DepthAnythingV2.axera/releases/tag/v1.0.0/models.tar.gz)，如需自行转换请参考[模型转换](/model_convert/README.md)
+- 预编译模型下载[models](https://github.com/AXERA-TECH/DepthAnythingV2.axera/releases/download/v1.0.0/models.tar.gz)，如需自行转换请参考[模型转换](/model_convert/README.md)
 
 ## 支持平台
 
