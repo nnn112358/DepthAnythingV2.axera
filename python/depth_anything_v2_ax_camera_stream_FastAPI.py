@@ -10,8 +10,6 @@ import json
 import platform
 
 #MODEL_PATH = "model/depth_anything_v2_vits_518x518.axmodel"
-#MODEL_PATH = "depth_anything_v2_vits_378x378.onnx"
-#MODEL_PATH = "depth_anything_v2_vits_224x224.onnx"
 MODEL_PATH = "model/depth_anything_v2_vits_378x378.axmodel"
 
 class InferenceEngine:
