@@ -1,4 +1,3 @@
-# DepthAnythingV2.axera
 
 Original is https://github.com/AXERA-TECH/DepthAnythingV2.axera<br>
 This repository has been modified by nnn.<br>
