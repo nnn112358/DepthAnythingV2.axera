@@ -1,9 +1,13 @@
 # DepthAnythingV2.axera
-Axera上のDepthAnything v2デモ
 
 ![image](https://github.com/user-attachments/assets/50b75567-c8ef-46d5-8df9-c2dba6b7e730)
+https://github.com/nnn112358/DepthAnythingV2.axera/blob/main/python/infer.py
 ![image](https://github.com/user-attachments/assets/bdfe6dd3-18bc-4ea2-915a-1141acb36034)
+https://github.com/nnn112358/DepthAnythingV2.axera/blob/main/python/depth_anything_v2_ax_camera_stream_FastAPI.py
 
+# DepthAnythingV2.axera
+
+Axera上のDepthAnything v2デモ
 - C++とPythonの2言語に対応。C++コードは[ax-samples](https://github.com/AXERA-TECH/ax-samples/blob/main/examples/ax650/ax_depth_anything_steps.cc)にあります
 - 事前コンパイル済みモデルは[models](https://github.com/AXERA-TECH/DepthAnythingV2.axera/releases/download/v1.0.0/models.tar.gz)からダウンロード。自身で変換する場合は[モデル変換](/model_convert/README.md)を参照
 
